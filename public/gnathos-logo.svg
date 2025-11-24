@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" fill="none">
+  <!-- Main "Gnathos" text -->
+  <text x="10" y="45" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#17A2B8">Gnathos</text>
+  
+  <!-- Tooth character circle -->
+  <circle cx="340" cy="30" r="25" fill="#FF6B9D"/>
+  
+  <!-- Tooth character -->
+  <g transform="translate(340, 30)">
+    <!-- Tooth body -->
+    <path d="M-8,-12 L-8,8 C-8,12 -4,16 0,16 C4,16 8,12 8,8 L8,-12 C8,-16 4,-20 0,-20 C-4,-20 -8,-16 -8,-12 Z" fill="white"/>
+    <!-- Eyes -->
+    <circle cx="-4" cy="-6" r="2" fill="#17A2B8"/>
+    <circle cx="4" cy="-6" r="2" fill="#17A2B8"/>
+    <!-- Smile -->
+    <path d="M-6,2 Q0,8 6,2" stroke="#17A2B8" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Sparkles -->
+    <g fill="#FF6B9D" opacity="0.8">
+      <circle cx="-15" cy="-10" r="1.5"/>
+      <circle cx="15" cy="-5" r="1"/>
+      <circle cx="-12" cy="5" r="1"/>
+      <circle cx="16" cy="8" r="1.5"/>
+    </g>
+  </g>
+  
+  <!-- "DENTAL" text -->
+  <text x="250" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="normal" fill="#333">DENTAL</text>
+  
+  <!-- "HOSPITAL BASED DENTISTRY" tagline -->
+  <text x="10" y="75" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#333" letter-spacing="2">HOSPITAL BASED DENTISTRY</text>
+</svg>
