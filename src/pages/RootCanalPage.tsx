@@ -13,6 +13,33 @@ const RootCanalPage = () => {
   { label: 'Services', href: '/#services' },
   { label: 'Root Canal Treatment' }];
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Gnathos Dental - Root Canal Treatment Hyderabad",
+    "description": "Expert root canal treatment in Hyderabad. Painless procedures, experienced endodontists, advanced technology to save your natural teeth.",
+    "url": "https://www.gnathosdental.in/root-canal",
+    "telephone": "090006 66476",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "CARE Hospitals, Old Mumbai Hwy, near Cyberabad Police Commissionerate, Jayabheri Pine Valley, HITEC City",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "postalCode": "500032",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "17.4435",
+      "longitude": "78.3772"
+    },
+    "medicalSpecialty": "Endodontics",
+    "offers": {
+      "@type": "Offer",
+      "name": "Root Canal Treatment Service",
+      "description": "Painless root canal treatment to save natural teeth"
+    }
+  };
 
   const faqItems = [
   {

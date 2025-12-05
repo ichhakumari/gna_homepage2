@@ -15,6 +15,34 @@ const DentalImplantPage = () => {
   { label: 'Services', href: '/#services' },
   { label: 'Dental Implants' }];
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Gnathos Dental - Dental Implants Hyderabad",
+    "description": "Best dental implants in Hyderabad. Advanced implant technology, expert surgeons, same-day implants available. Affordable & painless dental implant procedures.",
+    "url": "https://www.gnathosdental.in/dental-implants",
+    "telephone": "090006 66476",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "CARE Hospitals, Old Mumbai Hwy, near Cyberabad Police Commissionerate, Jayabheri Pine Valley, HITEC City",
+      "addressLocality": "Hyderabad",
+      "addressRegion": "Telangana",
+      "postalCode": "500032",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "17.4435",
+      "longitude": "78.3772"
+    },
+    "medicalSpecialty": "Dental Implants",
+    "offers": {
+      "@type": "Offer",
+      "name": "Dental Implant Service",
+      "description": "Advanced dental implant treatment with expert surgeons, same-day implants available"
+    }
+  };
+
   const faqItems = [
   {
     question: "What are dental implants and how do they work?",
@@ -48,17 +76,7 @@ const DentalImplantPage = () => {
         description="Get the best dental implants in Hyderabad at Gnathos Dental. Advanced implant technology, expert surgeons, same-day implants available. Book consultation today! Affordable & painless procedures."
         keywords="best dental implants Hyderabad, dental implant center, single tooth implant, all on 4 implants, same day implants, dental implant cost Hyderabad, implant dentist"
         canonical="https://gnathosdentalcare.com/dentalimplant"
-        schema={{
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "Gnathos Dental",
-          "url": "https://www.gnathosdental.in/dental-implants",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "1000"
-          }
-        }} />
+        schema={schemaData} />
 
       <Navigation />
 
