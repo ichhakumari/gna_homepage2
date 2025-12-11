@@ -4,7 +4,7 @@ import type { Config } from "tailwindcss";
 export default {
   darkMode: ["class"],
   content: [
-  "./src/**/*.{ts,tsx}"],
+    "./src/**/*.{ts,tsx}"],
 
   prefix: "",
   theme: {
@@ -61,7 +61,7 @@ export default {
           ring: 'hsl(var(--sidebar-ring))'
         },
         gnathos: {
-          primary: '#17A2B8', // Teal/Turquoise - main brand color
+          primary: '#01a8a6', // Teal/Turquoise - main brand color
           secondary: '#FF6B9D', // Pink/Coral - accent color
           'primary-light': '#7DD3FC', // Light teal
           'primary-dark': '#0891B2', // Dark teal

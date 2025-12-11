@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import HomePage from "./pages/HomePage";
+import Homepage2 from "./pages/Homepage2";
 import DentalImplantPage from "./pages/DentalImplantPage";
 import RootCanalPage from "./pages/RootCanalPage";
 import DentalCrownsPage from "./pages/DentalCrownsPage";
@@ -27,7 +28,7 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () =>
-<QueryClientProvider client={queryClient}>
+  <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <BrowserRouter>
@@ -36,6 +37,7 @@ const App = () =>
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<HomePage />} />
+              <Route path="/homepage2" element={<Homepage2 />} />
 
               {/* Service Routes */}
               <Route path="/dental-implant" element={<DentalImplantPage />} />
