@@ -16,30 +16,30 @@ const HomePage = () => {
   };
 
   const faqItems = [
-  {
-    question: "What makes Gnathos Dental the best dental clinic in Hyderabad?",
-    answer: "Gnathos Dental is recognized as the best dental clinic in Hyderabad due to our advanced technology, expert team of specialists, painless treatments, and comprehensive care. We offer world-class dental services with 15+ years of experience and have treated over 1000+ happy patients."
-  },
-  {
-    question: "Do you provide painless dental treatments?",
-    answer: "Yes, we specialize in painless dental treatments using advanced laser technology, modern anesthesia techniques, and gentle procedures. Our patients experience minimal discomfort during treatments like root canal, dental implants, and extractions."
-  },
-  {
-    question: "What dental services do you offer in Hyderabad?",
-    answer: "We offer comprehensive dental services including dental implants, root canal treatment, dental crowns, wisdom tooth extraction, smile designing, cosmetic dentistry, and general dentistry. All treatments are performed using the latest technology."
-  },
-  {
-    question: "Do you accept dental insurance?",
-    answer: "Yes, we accept most major dental insurance plans. Our team can help you understand your coverage and maximize your benefits. We also offer flexible payment options and affordable treatment plans."
-  },
-  {
-    question: "How do I book an appointment at Gnathos Dental?",
-    answer: "You can book an appointment by calling us at +91 9955 708 885, emailing gnathosdentalcare@gmail.com, or visiting our clinic. We offer convenient scheduling including early morning and late evening appointments for working professionals."
-  },
-  {
-    question: "Do you provide emergency dental care?",
-    answer: "Yes, we provide 24/7 emergency dental care for urgent situations like severe tooth pain, dental trauma, or infections. Our experienced team is always ready to help you during dental emergencies."
-  }];
+    {
+      question: "What makes Gnathos Dental the best dental clinic in Hyderabad?",
+      answer: "Gnathos Dental is recognized as the best dental clinic in Hyderabad due to our advanced technology, expert team of specialists, painless treatments, and comprehensive care. We offer world-class dental services with 15+ years of experience and have treated over 1000+ happy patients."
+    },
+    {
+      question: "Do you provide painless dental treatments?",
+      answer: "Yes, we specialize in painless dental treatments using advanced laser technology, modern anesthesia techniques, and gentle procedures. Our patients experience minimal discomfort during treatments like root canal, dental implants, and extractions."
+    },
+    {
+      question: "What dental services do you offer in Hyderabad?",
+      answer: "We offer comprehensive dental services including dental implants, root canal treatment, dental crowns, wisdom tooth extraction, smile designing, cosmetic dentistry, and general dentistry. All treatments are performed using the latest technology."
+    },
+    {
+      question: "Do you accept dental insurance?",
+      answer: "Yes, we accept most major dental insurance plans. Our team can help you understand your coverage and maximize your benefits. We also offer flexible payment options and affordable treatment plans."
+    },
+    {
+      question: "How do I book an appointment at Gnathos Dental?",
+      answer: "You can book an appointment by calling us at +91 9955 708 885, emailing gnathosdentalcare@gmail.com, or visiting our clinic. We offer convenient scheduling including early morning and late evening appointments for working professionals."
+    },
+    {
+      question: "Do you provide emergency dental care?",
+      answer: "Yes, we provide 24/7 emergency dental care for urgent situations like severe tooth pain, dental trauma, or infections. Our experienced team is always ready to help you during dental emergencies."
+    }];
 
 
   const schemaData = {
@@ -116,13 +116,13 @@ const HomePage = () => {
                 <p>
                   Our team of skilled dentists and specialists are dedicated to maintaining the highest standards of safety and hygiene while using state-of-the-art technology to ensure painless and effective dental care. From routine checkups to complex smile makeovers, Gnathos Dental offers a seamless blend of professionalism, compassion, and innovation.
                 </p>
-              
+
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/contact">
-                <Button size="lg" className="bg-gradient-to-r from-gnathos-primary to-gnathos-secondary hover:from-gnathos-primary-dark hover:to-gnathos-secondary-dark">
-                  Book Appointment
-                </Button>
+                <Link to="/contact">
+                  <Button size="lg" className="bg-gradient-to-r from-gnathos-primary to-gnathos-secondary hover:from-gnathos-primary-dark hover:to-gnathos-secondary-dark">
+                    Book Appointment
+                  </Button>
                 </Link>
                 <Button size="lg" variant="outline" onClick={() => scrollToSection('services')}>
                   View Services
@@ -146,8 +146,8 @@ const HomePage = () => {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-blue-100 to-cyan-100 rounded-2xl flex items-center justify-center">
                 <img src="\GNA Dental\Dental-Care.png"
-                alt="Best Dental Clinic in Hyderabad - Gnathos Dental"
-                className="w-full h-full object-cover rounded-2xl" />
+                  alt="Best Dental Clinic in Hyderabad - Gnathos Dental"
+                  className="w-full h-full object-cover rounded-2xl" />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-lg">
                 <div className="flex items-center space-x-2">
@@ -166,8 +166,8 @@ const HomePage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <img src="\GNA Dental\Excellence in-Dental-Care.png"
-              alt="Advanced Dental Care in Hyderabad"
-              className="w-full h-96 object-cover rounded-2xl shadow-lg" />
+                alt="Advanced Dental Care in Hyderabad"
+                className="w-full h-96 object-cover rounded-2xl shadow-lg" />
             </div>
             <div className="space-y-6">
               <div>
@@ -221,166 +221,166 @@ const HomePage = () => {
       </section>
 
       {/* Services Section */}
-    {/* Services Section */}
-    {/* Services Section */}
-<section id="services" className="py-16 bg-white">
-  <div className="container mx-auto px-4 lg:px-8">
-    <div className="text-center mb-12">
-      <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
-        Our Best Dental Services in Hyderabad
-      </h2>
-      <p className="text-gray-600 max-w-2xl mx-auto">
-        Comprehensive dental treatments with advanced technology and expert care for all your oral health needs.
-      </p>
-    </div>
-
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {/* Dental Implant */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Best Dental Implants in Hyderabad" className="w-8 h-8" />
+      {/* Services Section */}
+      {/* Services Section */}
+      <section id="services" className="py-16 bg-white">
+        <div className="container mx-auto px-4 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-4">
+              Our Best Dental Services in Hyderabad
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Comprehensive dental treatments with advanced technology and expert care for all your oral health needs.
+            </p>
           </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Dental Implant</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Permanent tooth replacement solution.
-          </p>
-          <Link to="/dental-implants" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
 
-      {/* Root Canal */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Root-Canal.png" alt="Painless Root Canal Treatment" className="w-8 h-8" />
-          </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Root Canal</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Save your natural tooth.
-          </p>
-          <Link to="/root-canal" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Dental Implant */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Best Dental Implants in Hyderabad" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Dental Implant</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Permanent tooth replacement solution.
+                </p>
+                <Link to="/dental-implants" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
 
-      {/* Dental Crowns & Bridges */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Dental-Crowns.png" alt="Dental Crowns & Bridges" className="w-8 h-8" />
-          </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Dental Crowns & Bridges</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Restore damaged teeth with custom crowns and bridges.
-          </p>
-          <Link to="/dental-crowns-bridges" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
+            {/* Root Canal */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Root-Canal.png" alt="Painless Root Canal Treatment" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Root Canal</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Save your natural tooth.
+                </p>
+                <Link to="/root-canal" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
 
-      {/* Oral Surgeries */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Oral Surgeries" className="w-8 h-8" />
-          </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Oral Surgeries</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Advanced surgical procedures for complex dental conditions.
-          </p>
-          <Link to="/oral-surgeries" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
+            {/* Dental Crowns & Bridges */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Dental-Crowns.png" alt="Dental Crowns & Bridges" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Dental Crowns & Bridges</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Restore damaged teeth with custom crowns and bridges.
+                </p>
+                <Link to="/dental-crowns-bridges" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
 
-      {/* Wisdom Tooth Removal */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Wisdom-Tooth.png" alt="Wisdom Tooth Removal" className="w-8 h-8" />
-          </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Wisdom Tooth Removal</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Safe extraction of wisdom teeth.
-          </p>
-          <Link to="/wisdom-tooth-removal" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
+            {/* Oral Surgeries */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Oral Surgeries" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Oral Surgeries</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Advanced surgical procedures for complex dental conditions.
+                </p>
+                <Link to="/oral-surgeries" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
 
-      {/* General Dentistry */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Dental-Implants.png" alt="General Dentistry" className="w-8 h-8" />
-          </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">General Dentistry</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Comprehensive dental care for the entire family.
-          </p>
-          <Link to="/general-dentistry" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
+            {/* Wisdom Tooth Removal */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Wisdom-Tooth.png" alt="Wisdom Tooth Removal" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Wisdom Tooth Removal</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Safe extraction of wisdom teeth.
+                </p>
+                <Link to="/wisdom-tooth-removal" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
 
-      {/* Laser Dentistry */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Laser Dentistry" className="w-8 h-8" />
-          </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Laser Dentistry</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Advanced laser treatments for precise dental care.
-          </p>
-          <Link to="/laser-dentistry" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
+            {/* General Dentistry */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Dental-Implants.png" alt="General Dentistry" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">General Dentistry</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Comprehensive dental care for the entire family.
+                </p>
+                <Link to="/general-dentistry" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
 
-      {/* Aligners */}
-      <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
-        <CardHeader className="text-center pb-4">
-          <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-            <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Aligners" className="w-8 h-8" />
+            {/* Laser Dentistry */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Laser Dentistry" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Laser Dentistry</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Advanced laser treatments for precise dental care.
+                </p>
+                <Link to="/laser-dentistry" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
+
+            {/* Aligners */}
+            <Card className="group hover:shadow-lg transition-all duration-300 border-0 shadow-sm">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <img src="/GNA Dental/Icons/Dental-Implants.png" alt="Aligners" className="w-8 h-8" />
+                </div>
+                <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Aligners</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 text-sm mb-3">
+                  Invisible braces for perfect smile alignment.
+                </p>
+                <Link to="/aligners" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
+                  Learn More <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
+              </CardContent>
+            </Card>
           </div>
-          <CardTitle className="text-xl group-hover:text-gnathos-primary transition-colors">Aligners</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-gray-600 text-sm mb-3">
-            Invisible braces for perfect smile alignment.
-          </p>
-          <Link to="/aligners" className="inline-flex items-center text-gnathos-primary hover:text-gnathos-primary-dark mt-3 text-sm font-medium">
-            Learn More <ArrowRight className="w-4 h-4 ml-1" />
-          </Link>
-        </CardContent>
-      </Card>
-    </div>
-  </div>
-</section>
+        </div>
+      </section>
 
 
 
@@ -465,7 +465,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      
+
 
       {/* Locations Section */}
 
@@ -537,7 +537,7 @@ const HomePage = () => {
               <CardHeader>
                 <div className="w-24 h-24 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full mx-auto mb-4 overflow-hidden">
                   <img src="\GNA Dental\Icons\Dr-Naveetha.jpg"
-                  alt="Dr. Navatha Mortha - Oral and Maxillofacial Surgeon" className="w-full h-full object-contain" />
+                    alt="Dr. Navatha Mortha - Oral and Maxillofacial Surgeon" className="w-full h-full object-contain" />
                 </div>
                 <CardTitle className="text-xl">Dr. Navatha Mortha</CardTitle>
                 <CardDescription className="text-blue-600 font-medium">MDS Oral and Maxillofacial Surgeon</CardDescription>
@@ -551,7 +551,7 @@ const HomePage = () => {
               <CardHeader>
                 <div className="w-24 h-24 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full mx-auto mb-4 overflow-hidden">
                   <img src="\GNA Dental\Icons\Dr-Pratyusha.jpg"
-                  alt="Dr. Pratyusha - Consultant Dental Surgeon" className="w-full h-full object-contain" />
+                    alt="Dr. Pratyusha - Consultant Dental Surgeon" className="w-full h-full object-contain" />
                 </div>
                 <CardTitle className="text-xl">Dr. Pratyusha</CardTitle>
                 <CardDescription className="text-blue-600 font-medium">BDS Consultant Dental Surgeon</CardDescription>
@@ -565,7 +565,7 @@ const HomePage = () => {
               <CardHeader>
                 <div className="w-24 h-24 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full mx-auto mb-4 overflow-hidden">
                   <img src="\GNA Dental\Icons\Dr-Suresh.jpg"
-                  alt="Dr. Suresh PL - Senior Dental Surgeon" className="w-full h-full object-contain" />
+                    alt="Dr. Suresh PL - Senior Dental Surgeon" className="w-full h-full object-contain" />
                 </div>
                 <CardTitle className="text-xl">Dr. Suresh PL</CardTitle>
                 <CardDescription className="text-blue-600 font-medium">MDS, MOMS RCPS (UK)</CardDescription>
@@ -578,7 +578,7 @@ const HomePage = () => {
         </div>
       </section>
 
-    
+
 
       {/* Call to Action */}
       <CallToAction />
@@ -654,23 +654,23 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="mt-6">
-              <Link to="/contact">
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600">
-                  Schedule Your Visit Today
-                </Button>
+                <Link to="/contact">
+                  <Button className="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600">
+                    Schedule Your Visit Today
+                  </Button>
                 </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-{/* FAQ Section */}
+      {/* FAQ Section */}
       <FAQ items={faqItems} />
     </div>
-    
-    );
 
-      
+  );
+
+
 
 };
 
